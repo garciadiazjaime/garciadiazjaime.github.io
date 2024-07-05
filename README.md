@@ -1,1 +1,1 @@
-(Blog)[https://blog.mintitmedia.com/]
+[Blog](https://blog.mintitmedia.com/)
