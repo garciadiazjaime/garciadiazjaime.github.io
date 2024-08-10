@@ -5,6 +5,8 @@ date: 2024-08-03 10:59:13 -0500
 categories: javascript software-development best-practices
 ---
 
+![JavaScript: A Short Story of Decoupling](/assets/javascript-decoupling/banner.png)
+
 I was working on a piece of code and submitted a Pull Request for it. During the review, a colleague left this comment:
 
 > Why not decouple this file?

@@ -5,6 +5,8 @@ date: 2024-08-03 10:59:13 -0500
 categories: javascript react nextjs
 ---
 
+![Building a Contact Form in React](/assets/react-contact-form/banner.png)
+
 When working on a web application, a contact form is often required. While seemingly simple, it can quickly become complex.
 
 A **Contact Form** requires:

@@ -5,6 +5,8 @@ date: 2024-07-04 19:59:13 -0500
 categories: javascript
 ---
 
+![JavaScript: Single Quotes or Double Quotes?](/assets/single-double-quotes/banner.png)
+
 When it comes to using single or double quotes in JavaScript, it doesn’t matter as long as you use a tool to maintain a consistent format. The tool should automatically format the code to the expected output.
 
 A popular formatter package is **Prettier**, which comes with a set of recommended rules for any project.
