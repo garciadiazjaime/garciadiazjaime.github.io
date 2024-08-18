@@ -2,7 +2,7 @@
 layout: post
 title: "Building a Contact Form in React"
 date: 2024-08-03 10:59:13 -0500
-categories: javascript react nextjs
+categories: javascript reactjs nextjs
 ---
 
 ![Building a Contact Form in React](/assets/react-contact-form/banner.png)
