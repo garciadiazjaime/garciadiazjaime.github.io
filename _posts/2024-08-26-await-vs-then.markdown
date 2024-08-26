@@ -113,3 +113,8 @@ It doesn’t really matter which approach you choose, both produce the same outp
 In the teams I’ve worked with, there’s usually a preferred style, and for consistency, everyone tries to stick with it. However, during Pull Requests reviews, there’s rarely any strict policy on whether to use `try/catch` or `.then().catch()`.
 
 At some point, tools like ESLint or Prettier might enforce a rule or even convert code to a consistent style. _AI agents_ can already do this, but since there’s no functional difference, it’s more about aligning with team consensus. So next time you need to resolve a promise, check if your team has a preference, then go with the flow.
+
+### Links
+
+- [Demo](https://demo.garciadiazjaime.com/try-catch-vs-then-catch)
+- [Codebase](https://github.com/garciadiazjaime/demo-reactjs/blob/main/app/try-catch-vs-then-catch/page.tsx)
