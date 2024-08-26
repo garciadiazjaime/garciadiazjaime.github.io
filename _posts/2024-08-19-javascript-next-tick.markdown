@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Utilizing `setTimeout` to Maintain Operation Sequence"
-date: 2024-08-18 08:00:00 -0500
+date: 2024-08-19 08:00:00 -0500
 categories: javascript reactjs nextjs web-development
 ---
 
