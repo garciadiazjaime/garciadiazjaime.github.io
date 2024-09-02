@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Building a Contact Form in React"
-date: 2024-08-03 10:59:13 -0500
+date: 2024-08-05 08:00:00 -0500
 categories: javascript reactjs nextjs
 ---
 

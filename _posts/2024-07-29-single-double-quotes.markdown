@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "JavaScript: Single Quotes or Double Quotes?"
-date: 2024-07-04 19:59:13 -0500
+date: 2024-07-29 08:00:00 -0500
 categories: javascript
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "JavaScript: A Short Story of Decoupling"
-date: 2024-08-03 10:59:13 -0500
+date: 2024-08-12 08:00:00 -0500
 categories: javascript software-development best-practices
 ---
 
