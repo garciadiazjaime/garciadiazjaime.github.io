@@ -5,6 +5,8 @@ date: 2024-08-19 08:00:00 -0500
 categories: javascript reactjs nextjs web-development
 ---
 
+![Utilizing `setTimeout` to Maintain Operation Sequence](/assets/javascript-next-tick/banner.png)
+
 ## Using an iframe
 
 In a project I'm currently working on, there's a requirement to:

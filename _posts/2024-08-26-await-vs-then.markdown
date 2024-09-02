@@ -5,6 +5,8 @@ date: 2024-08-26 08:00:00 -0500
 categories: javascript reactjs web-development best-practices
 ---
 
+![Try/Catch vs .then().catch()](/assets/await-vs-then/banner.png)
+
 ## Handling Promises
 
 Both `.then` and `await` help manage the resolution of a promise.
