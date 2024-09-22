@@ -15,3 +15,8 @@
 ```sh
 bundle exec jekyll serve
 ```
+
+---
+
+Theme:
+Color: `#012a33`
