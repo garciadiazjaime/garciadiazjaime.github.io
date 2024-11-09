@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Gemini API: The Free Tier That Makes Developers Happy"
-date: 2024-09-23 10:00:00 -0500
+date: 2024-10-14 10:00:00 -0500
 categories: javascript programming gemini openai
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "ETL: Extracting a Person's Name from Text"
-date: 2024-09-23 10:00:00 -0500
+date: 2024-10-07 10:00:00 -0500
 categories: python machinelearning named-entity-recognition programming
 ---
 

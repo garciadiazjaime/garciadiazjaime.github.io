@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "React + AWS Cognito: Email Authentication Setup Guide (First Part)"
-date: 2024-09-23 10:00:00 -0500
+date: 2024-11-04 10:00:00 -0500
 categories: javascript programming react aws-cognito
 ---
 

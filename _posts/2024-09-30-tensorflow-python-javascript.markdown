@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Bridging Machine Learning with TensorFlow: From Python to JavaScript"
-date: 2024-09-23 10:00:00 -0500
+date: 2024-09-30 10:00:00 -0500
 categories: javascript python machinelearning tensorflow
 ---
 
