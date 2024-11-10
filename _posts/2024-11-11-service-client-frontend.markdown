@@ -27,6 +27,11 @@ The first step is signing up
 import { SignUpCommand } from "@aws-sdk/client-cognito-identity-provider";
 
 const AWS_CLIENT_ID = "REPLACE_WITH_YOUR_AWS_CLIENT_ID";
+const AWS_REGION = "REPLACE_WITH_YOUR_AWS_REGION";
+
+const cognitoClient = new CognitoIdentityProviderClient({
+  region: AWS_REGION,
+});
 
 export const signUp = async (email: string, password: string) => {
   const params = {
@@ -65,6 +70,11 @@ When `SignUpCommand` runs, AWS registers the account and sends a verification co
 import { ConfirmSignUpCommand } from "@aws-sdk/client-cognito-identity-provider";
 
 const AWS_CLIENT_ID = "REPLACE_WITH_YOUR_AWS_CLIENT_ID";
+const AWS_REGION = "REPLACE_WITH_YOUR_AWS_REGION";
+
+const cognitoClient = new CognitoIdentityProviderClient({
+  region: AWS_REGION,
+});
 
 export const confirmSignUp = async (username: string, code: string) => {
   const params = {
@@ -89,9 +99,17 @@ Notice that `ConfirmSignUpCommand` requires your AWS `ClientId`, `username` (ema
 If `ConfirmSignUpCommand` completes successfully, the account should be all set for logging in.
 
 ```typescript
-import { SignUpCommand } from "@aws-sdk/client-cognito-identity-provider";
+import {
+  AuthFlowType,
+  SignUpCommand,
+} from "@aws-sdk/client-cognito-identity-provider";
 
 const AWS_CLIENT_ID = "REPLACE_WITH_YOUR_AWS_CLIENT_ID";
+const AWS_REGION = "REPLACE_WITH_YOUR_AWS_REGION";
+
+const cognitoClient = new CognitoIdentityProviderClient({
+  region: AWS_REGION,
+});
 
 export const signIn = async (username: string, password: string) => {
   const params = {
