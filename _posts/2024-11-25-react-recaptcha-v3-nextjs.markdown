@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "React: ReCAPTCHA v3 Client and Server Demo"
-date: 2024-11-18 10:00:00 -0500
+date: 2024-11-25 10:00:00 -0500
 categories: javascript react recaptcha nextjs
 ---
 
