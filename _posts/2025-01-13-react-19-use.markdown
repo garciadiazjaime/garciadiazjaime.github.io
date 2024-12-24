@@ -1,0 +1,89 @@
+---
+layout: post
+title: "React 19: New API use(promise)"
+date: 2024-01-13 10:00:00 -0500
+categories: programming javascript react
+---
+
+![Web Development: Three Predictions for 2025](/assets/three-lessons-learned-2024/banner.png)
+
+In this post, I’ll demo how to read a value from a promise using `use`.
+
+## Links
+
+- [Demo](https://demo.garciadiazjaime.com/react-19-use)
+
+- [Codebase](https://github.com/garciadiazjaime/demo-reactjs/blob/main/app/react-19-use/page.tsx)
+
+## Snippet
+
+Let’s check out the following code:
+
+```javascript
+import { Suspense } from "react";
+
+export default function Page() {
+  const messagePromise = fetchMessages();
+
+  return (
+    <Suspense fallback={<p>⌛ waiting for messages...</p>}>
+      <Message messagePromise={messagePromise} />
+    </Suspense>
+  );
+}
+```
+
+A couple of things to note:
+
+- `<Suspense />` is being used, which basically displays the fallback, in this case: `⌛ waiting for messages...`, until the promise is resolved.
+
+- `messagePromise` is a promise passed as a prop to `<Message />`.
+
+Now, let’s take a look at `fetchMessages`:
+
+```javascript
+async function fetchMessages() {
+  return [
+    {
+      id: 1,
+      text: "message 1",
+    },
+    {
+      id: 2,
+      text: "message 2",
+    },
+  ];
+}
+```
+
+As you can see, it’s a very simple function. In a real world example, this could be a `fetch` request, but for simplicity, the function just returns an array. By using `async`, JavaScript automatically knows that the function returns a promise.
+
+Finally, let’s check out the `<Message>` component:
+
+```javascript
+function Message({ messagePromise }) {
+  const comments = use(messagePromise);
+
+  return comments.map((comment) => <p key={comment.id}>{comment.text}</p>);
+}
+```
+
+This is where it gets interesting. The `<Message>` component receives `messagePromise` as a prop, which, as we mentioned, is a promise.
+
+Usually, you’d use `await` with a promise, but in React 19, you can now use `use` to achieve basically the same result.
+
+> One key difference between `await` and `use` is that `await` blocks rendering until the promise is resolved, whereas `use` doesn’t block rendering.
+
+Here’s how the component looks before the promise is resolved:
+
+![React 19 use: before promise is resolved](/assets/react-19-use/ui-before-promise-resolved.png)
+
+And once the promise is resolved:
+
+![React 19 use: after before promise is resolved](/assets/react-19-use/ui-after-promise-resolved.png)
+
+## Conclusion
+
+`use` works similarly to `await`, and if the application is running on a server using SSR, the result is exactly the same: the server will return the same HTML response in both cases.
+
+However, if the code runs on the client, rendering behaves a bit differently. `await` blocks rendering until the promise is resolved, while `use` allows the component to re-render once the promise is resolved.
