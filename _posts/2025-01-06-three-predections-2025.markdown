@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Web Development: Three Predictions for 2025"
-date: 2024-01-06 10:00:00 -0500
+date: 2025-01-06 10:00:00 -0500
 categories: programming
 ---
 

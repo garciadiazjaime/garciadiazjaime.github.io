@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How Many Resources Does a Click Consume? React vs. Vanilla"
-date: 2024-10-14 10:00:00 -0500
+date: 2024-10-21 10:00:00 -0500
 categories: javascript programming react webperf
 ---
 

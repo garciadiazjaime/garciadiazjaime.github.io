@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "React: How Often Does a Cleanup Function Run?"
-date: 2024-10-14 10:00:00 -0500
+date: 2024-10-28 10:00:00 -0500
 categories: javascript programming react webdev
 ---
 
