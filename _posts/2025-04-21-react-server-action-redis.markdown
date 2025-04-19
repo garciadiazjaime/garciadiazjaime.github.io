@@ -97,7 +97,7 @@ Take a look at the full [component](https://github.com/garciadiazjaime/demo-reac
 
 ## Demo
 
-Make sure to take a look at the [demo page](https://www.garciadiazjaime.com/react-server-action-redis)
+Make sure to take a look at the [demo page](https://demo.garciadiazjaime.com/react-server-action-redis)
 
 ## Conclusion
 
