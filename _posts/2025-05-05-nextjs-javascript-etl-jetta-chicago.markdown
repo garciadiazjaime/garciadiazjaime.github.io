@@ -50,9 +50,9 @@ A basic web app to display the data in a table-like format with simple filters.
 
 Let's take a look at the following dealer's website:
 
-![Architecture](/assets/nextjs-javascript-etl-jetta-chicago/jetta-car-dealer-website.png)
+![Jetta Dealership Website](/assets/nextjs-javascript-etl-jetta-chicago/jetta-car-dealer-website.png)
 
-Notice how the website displays the properties we're interested in. Fortunately, at the time of writing, this site returns a JSON response, which makes it easy to traverse and extract car data. The ETL looks like this:
+Notice how the website displays the properties I'm interested in. Fortunately, at the time of writing, this site returns a JSON response, which makes it easy to traverse and extract car data. The ETL looks like this:
 
 ```js
 const fs = require("fs");
@@ -113,17 +113,17 @@ After running the ETL, I’ll get a JSON file like this:
 
 ## Aggregator
 
-This helper combines all the `Site_N.json` files into a single `cars.json` file, which will be used by the web application.
+This [helper](https://github.com/garciadiazjaime/website-cars/blob/main/support/aggregator.js) combines all the `Site_N.json` files into a single `cars.json` file, which will be used by the web application.
 
 ## Next.js
 
 A simple web app that displays `cars.json`. The page looks like this:
 
-![Architecture](/assets/nextjs-javascript-etl-jetta-chicago/jetta-chicago-ui.png)
+![Jetta Nextjs Web app](/assets/nextjs-javascript-etl-jetta-chicago/jetta-chicago-ui.png)
 
 ## Demo
 
-Make sure to check out the [Website](https://www.mintitmedia.com/) and take a look at the [Codebase](https://github.com/garciadiazjaime/website-cars).
+Make sure to check out the [Website](https://volkswagen-chicago.mintitmedia.com/) and take a look at the [Codebase](https://github.com/garciadiazjaime/website-cars).
 
 So now, I know which Jetta to get 🤓
 
