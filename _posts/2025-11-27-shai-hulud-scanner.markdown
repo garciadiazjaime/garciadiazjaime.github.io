@@ -2,7 +2,7 @@
 layout: post
 title: "Shai Hulud Scanner"
 date: 2025-12-27 10:00:00 -0500
-categories: nginx reverse-proxy software-architecture
+categories: nodejs npm cybersecurity
 ---
 
 ![Shai Hulud Scanner](/assets/2025-11-27-shai-hulud-scanner/banner.png)
