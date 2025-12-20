@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Shai Hulud Scanner"
-date: 2025-12-27 10:00:00 -0500
+date: 2025-11-27 10:00:00 -0500
 categories: nodejs npm cybersecurity
 ---
 
