@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "One Artwork, Seven Questions: Exploring the Art Institute API and Gemini"
-date: 2025-12-22 10:00:00 -0500
+date: 2026-01-01 10:00:00 -0500
 categories: nextjs art gemini copilot
 ---
 
