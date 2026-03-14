@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "NER: Gemini vs Spacy vs Compromise"
-date: 2026-01-12 10:00:00 -0500
+date: 2026-03-16 10:00:00 -0500
 categories: machine-learning language-model large-language-model named-entity-recognition
 ---
 
